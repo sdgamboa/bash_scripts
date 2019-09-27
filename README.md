@@ -7,7 +7,7 @@ do my work on the linux terminal.
 **Join together many tables of counts.**  
 These two scripts are useful when you need to use the join command over two or more tables with numbers.
 If some values are missing they will be filled with zeros (that's why the _counts_ part of the name). 
-The `multijoin_counts_h.sh` scripts takes headers into account. 
+The `multijoin_counts_h.sh` script takes headers into account. 
 
 ## protrax.sh
 **Explore the phylogeny of several multiple sequence alignments of proteins**  
