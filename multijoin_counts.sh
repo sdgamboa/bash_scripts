@@ -1,7 +1,7 @@
 #!/bin/bash
-# Recurisve join
+# Recursive join
 
-# Defining the recursve function in case of three or more files to be joined.
+# Define a recursive fuction in case that three or more files need to be joined.
 
 join_rec() {
 	if test "$#" -eq 1
