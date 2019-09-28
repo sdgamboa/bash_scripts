@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# A scrip to autmatically choose the best model (and parameters) of protein evolution for a trimmed alignment,
+# A scrip to automatically choose the best model (and parameters) of protein evolution for a trimmed alignment,
 # and run the phylognentic analysis with RAxML.
 # The best model will be chosen according to the AICc.
 
