@@ -16,5 +16,3 @@ determines the best model of protein of evolution with ProtTest3 and runs a ML p
 RaXML for each of them. Before using this script you will need to modify it to indicate the path to the ProtTest3 and 
 RaXML executables. The autoMRE option of bootstopping criterion is activated to automatically determine 
 the number of bootstrap replicates.
-empty line
-another line
