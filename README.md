@@ -1,6 +1,6 @@
-# My Bash Scripts
+# A Few Bash Scripts
 
-This repository contains some bash scripts that I often use to
+This repository contains some custom-made bash scripts that I often use to
 do my work on the linux terminal.
 
 ## multijoin_counts.sh and multijoin_counts_h.sh
