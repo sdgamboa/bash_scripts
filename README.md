@@ -17,3 +17,4 @@ RaXML for each of them. Before using this script you will need to modify it to i
 RaXML executables. The autoMRE option of bootstopping criterion is activated to automatically determine 
 the number of bootstrap replicates.
 empty line
+another line
