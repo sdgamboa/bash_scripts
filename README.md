@@ -3,6 +3,12 @@
 This repository contains some custom-made bash scripts that I often use to
 do my work on the linux terminal.
 
+## hmm_retrieve.sh
+**Search and retrieve protein sequences from a set of protein datasets by using hmmer and seqret.**<br>
+The inputs are a hmmprofile and one or several protein sequence datasets in fasta format.
+The output is a folder with the results: list of ids, retrieved sequences in fasta, hmmsearch results (normal, tabular,
+and domain output formats), table of counts, and log files.
+
 ## multijoin_counts.sh and multijoin_counts_h.sh
 **Join together many tables of counts.**<br>
 These two scripts are useful when you need to use the join command over two or more tables with numbers.
@@ -17,8 +23,4 @@ RaXML for each alignment. Before using this script you will need to modify it to
 RaXML executables. The autoMRE option of bootstopping criterion is activated to automatically determine 
 the number of bootstrap replicates.
 
-## hmm_retrieve.sh
-**Search and retrieve protein sequences from a set of protein datasets by using hmmer and seqret.**<br>
-The inputs are a hmmprofile and one or several protein sequence datasets in fasta format.
-The output is a folder with the results: list of ids, retrieved sequences in fasta, hmmsearch results (normal, tabular,
-and domain output formats), table of counts, and log files.
+
