@@ -1,0 +1,20 @@
+#! /bin/bash
+
+if test $1 = R
+then
+    echo "### Using R current relase ###"
+    echo
+    ln -sf $HOME/Apps/R-4.1.1/bin/R $HOME/bin/R
+    ln -sf $HOME/Apps/R-4.1.1/bin/Rscript $HOME/bin/Rscript
+    R --version
+    echo
+elif test $1 = R-devel
+then
+    echo "### Using R-devel ####"
+    echo
+    ln -sf $HOME/Apps/R-devel/bin/R $HOME/bin/R
+    ln -sf $HOME/Apps/R-devel/bin/Rscript $HOME/bin/Rscript
+    R --version
+    echo
+fi
+
